@@ -1,0 +1,29 @@
+.sidebar {
+	background-color: #f4f4f4;
+	width: 250px;
+	padding: 15px;
+}
+    
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+}
+    
+.sidebar ul li {
+	padding-top: 10px;
+	margin: 20px 0;
+}
+    
+.sidebar ul li a {
+	color: #333;
+	text-decoration: none;
+}
+    
+.sidebar ul li a:hover {
+	color:#333;
+	border: solid;
+	padding: 13px;
+	border-radius: 7px;
+	box-shadow: 2px 7px 0px 0px rgba(0, 0, 0, 0.5);
+	transition: all				 0.3s ease-in 1;
+}
